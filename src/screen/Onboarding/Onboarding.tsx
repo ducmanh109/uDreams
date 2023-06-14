@@ -72,7 +72,9 @@ const renderTabBar: (props: TabBarProps) => ReactNode = ({navigationState}) => (
     <View style={styles.wrapDots}>
       {navigationState.routes.map((_, i) => {
         const isActive = navigationState.index === i ? 1 : 0.2;
-        return <View style={[styles.dotStyle, {opacity: isActive}]} />;
+        return (
+          <View key={`${i}`} style={[styles.dotStyle, {opacity: isActive}]} />
+        );
       })}
     </View>
   </View>
