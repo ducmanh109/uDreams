@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "753873542081",
+    "project_id": "udreams-7e44b",
+    "storage_bucket": "udreams-7e44b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753873542081:android:cb75e90f13b26694b2ed40",
+        "android_client_info": {
+          "package_name": "com.udreams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753873542081-9o292f7jeo97dlngiqfc2fnl7aarf0tq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbAawlCl9NaaypzLC4ICyxpw6dyqLp7PI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753873542081-9o292f7jeo97dlngiqfc2fnl7aarf0tq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
