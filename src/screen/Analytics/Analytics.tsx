@@ -26,7 +26,7 @@ const Analytics = () => {
   const closeModal = () => {
     setModalVisible(false);
   };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   const openModal = useCallback(
     (subjectName: string) => {
       getSubject(subjectName);

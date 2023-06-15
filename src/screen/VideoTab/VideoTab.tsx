@@ -20,6 +20,7 @@ const VideoTab = () => {
   const defaultUrl =
     'https://www.youtube.com/embed/xTtRD8hFBSA?rel=0&autoplay=0&showinfo=1&controls=1';
   const [url, setUrl] = useState(defaultUrl);
+  console.log('🚀 ~ file: VideoTab.tsx:23 ~ VideoTab ~ url:', url);
 
   //firebase
   useEffect(() => {
