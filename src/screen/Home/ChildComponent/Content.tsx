@@ -1,9 +1,6 @@
-import {useIsFocused} from '@react-navigation/native';
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {StyleSheet, Text, TouchableWithoutFeedback, View} from 'react-native';
 import ROUTES from '../../../constants/routes';
-import {myDatabase, stopListenData} from '../../../data/database';
-import {profileStore} from '../../../data/profile/profile.store';
 import {navigateTo} from '../../../navigator/actions';
 import colors from '../../../utils/colors';
 import useHomeLogic from '../Home.logic';

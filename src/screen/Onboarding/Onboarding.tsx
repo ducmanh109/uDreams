@@ -1,6 +1,5 @@
 import React, {memo, ReactNode} from 'react';
 import {Text, useWindowDimensions, View} from 'react-native';
-import FastImage from 'react-native-fast-image';
 import {
   NavigationState,
   SceneMap,

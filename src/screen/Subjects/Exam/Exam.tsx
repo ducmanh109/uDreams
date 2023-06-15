@@ -351,10 +351,3 @@ const Exam = ({route}) => {
 };
 
 export default memo(Exam);
-function isSelectionModeEnabled() {
-  throw new Error('Function not implemented.');
-}
-
-function disableSelectionMode() {
-  throw new Error('Function not implemented.');
-}

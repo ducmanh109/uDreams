@@ -2,7 +2,7 @@ import {RootStackParamsList} from './../Stacks/RootStack.types';
 import {isNavigationReady, navigationRef} from './../../app/Navigation.ref';
 // import { DrawerActions } from '@react-navigation/native';
 
-export function navigateTo<T>(
+export function navigateTo(
   name: string,
   params?: RootStackParamsList[typeof name],
 ) {

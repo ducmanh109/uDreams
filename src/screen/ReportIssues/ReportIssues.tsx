@@ -1,23 +1,17 @@
-import React, {useCallback, useState} from 'react';
-import {SafeAreaView, View, Text, TextInput, Alert} from 'react-native';
+import React from 'react';
+import {SafeAreaView} from 'react-native';
 // import {Picker} from '@react-native-picker/picker';
-import FontAweSome from 'react-native-vector-icons/FontAwesome';
-import Fontisto from 'react-native-vector-icons/Fontisto';
-import {styles} from './styles';
-import colors from '../../utils/colors';
-import {goBack} from '../../navigator/actions';
-import Button from '../../components/Button/Button';
 
 const ReportIssue = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState();
+  // const [selectedLanguage, setSelectedLanguage] = useState();
 
-  const onValueChange = useCallback(({itemValue}) => {
-    setSelectedLanguage(itemValue);
-  }, []);
+  // const onValueChange = useCallback(({ itemValue }) => {
+  //   setSelectedLanguage(itemValue);
+  // }, []);
 
-  const onSubmitReport = () => {
-    Alert.alert('Thông báo', 'Cảm ơn bạn đã gửi thông báo lỗi!');
-  };
+  // const onSubmitReport = () => {
+  //   Alert.alert('Thông báo', 'Cảm ơn bạn đã gửi thông báo lỗi!');
+  // };
   return (
     <SafeAreaView>
       {/* <View style={styles.header}>
